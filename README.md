@@ -2,6 +2,7 @@
 Random character generator / character counter.
 A simple web application that allows users to generate random characters based on their preferences. Users can customize the character set by toggling options for numbers, uppercase letters, lowercase letters, and even provide custom text input for more flexibility.
 
+                                                                                             
 ## Features
 
 - Generate random characters with customizable options.
