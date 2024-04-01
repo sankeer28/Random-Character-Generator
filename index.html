@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Character Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <a id="github-link" href="https://github.com/sankeer28/Random-Character-Generator">GitHub</a>
+        <h1>Random Character Generator</h1>
+        <label for="charCount">Enter the number of characters:</label>
+        <input type="number" id="charCount" min="1" value="10" class="customInput">
+        <button id="generateButton">Generate</button>
+        <div id="output"></div>
+        <button id="copyButton">Copy to Clipboard</button>
+
+        <div class="toggle">
+            <input type="checkbox" id="toggleNumbers" checked> 
+            <label for="toggleNumbers">Numbers</label>
+        </div>
+        <div class="toggle">
+            <input type="checkbox" id="toggleUppercase" checked> 
+            <label for="toggleUppercase">Uppercase Letters</label>
+        </div>
+        <div class="toggle">
+            <input type="checkbox" id="toggleLowercase" checked> 
+            <label for="toggleLowercase">Lowercase Letters</label>
+        </div>
+        
+        <div class="toggle">
+            <input type="checkbox" id="toggleCustomText">
+            <label for="toggleCustomText">Custom Text</label>
+        </div>
+        <input type="text" id="customTextInput" class="customInput" placeholder="Custom text">
+    </div>
+
+    <div class="container" id="inputContainer">
+        <h2>Character Counter</h2>
+        <textarea id="charInput" rows="4" placeholder="Paste characters here"></textarea>
+        <p>Character count: <span id="charCountDisplay">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
